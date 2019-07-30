@@ -1,5 +1,7 @@
 @echo OFF
 
+:: This file runs all the actions in Configuration Manager
+
 COLOR 0D
 
 goto check_Permissions
