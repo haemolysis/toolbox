@@ -2,7 +2,7 @@
 
 CLS
 
-TYPE C:\Users\murraym2\Desktop\Tools\bats\boom.txt
+:: this is a toolbox, of sorts
 
 :menu
 
@@ -112,7 +112,7 @@ IF %ERRORLEVEL%==2 GOTO menu
 
 :four
 
-REG ADD "HKLM\SOFTWARE\Policies\Google\Update" /v "Update{8A69D345-D564-463C-AFF1-A69D9E530F96}" /t REG_DWORD /d 1 /f
+REG DELETE "HKLM\SOFTWARE\Policies\Google" /f
 IF %ERRORLEVEL% == 0 (
     ECHO Done..
 ) else (
