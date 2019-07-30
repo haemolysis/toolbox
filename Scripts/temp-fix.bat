@@ -1,9 +1,10 @@
 @echo off
+
+:: this script fixes temporary profile issues on windows 8.1, and possible other versions
+
 setlocal
 
-type C:\Users\murraym2\Desktop\Tools\bats\alien.txt
-
-set /p o="Enter ORG number: "
+set /p o="Enter computer number: "
 set /p chk="Is %o% correct? Type yes to proceed: "
 
 IF "%chk%"=="yes" (
