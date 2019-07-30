@@ -1,7 +1,7 @@
 @echo off
 color 02
 
-type C:\Users\murraym2\Desktop\Tools\bats\stars.txt
+:: this script clears all microsoft office credentials from Credential Manager
 
 set /p check="Type yes to continue: "
 IF "%check%"=="yes" (
